@@ -8,29 +8,43 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Clients
   - API Client
-  - Developer Tools
   - REST
   - GraphQL
+  - gRPC
 url: >-
   https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-03-16'
+modified: '2026-03-27'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: yaak:yaak
+    name: Yaak
+    description: >-
+      Yaak is an open-source desktop API client for organizing and executing
+      REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built
+      with Tauri, Rust, and React, it is a privacy-first, fast desktop client
+      with no telemetry and no cloud lock-in.
+    humanURL: https://yaak.app
+    tags:
+      - Clients
+      - API Client
+      - REST
+      - GraphQL
+      - gRPC
+    properties:
+      - type: Documentation
+        url: https://yaak.app/docs
+      - type: Getting Started
+        url: https://yaak.app/docs
 common:
-  - url: https://yaak.app/
-    name: Yaak - The API client you'll actually enjoy
-    type: Website
-    description: 'null'
-  - url: https://yaak.app/docs
-    name: Documentation | Yaak
-    type: Documentation
-    description: 'null'
-  - url: https://github.com/mountain-loop/yaak
-    name: Yaak GitHub Repository
-    type: GitHubRepository
-    description: 'null'
+  - type: Website
+    url: https://yaak.app
+  - type: Documentation
+    url: https://yaak.app/docs
+  - type: GitHub Organization
+    url: https://github.com/mountain-loop/yaak
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
