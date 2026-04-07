@@ -8,11 +8,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Clients
   - API Client
-  - REST
+  - Clients
   - GraphQL
   - gRPC
+  - REST
 url: >-
   https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -28,11 +28,11 @@ apis:
       with no telemetry and no cloud lock-in.
     humanURL: https://yaak.app
     tags:
-      - Clients
       - API Client
-      - REST
+      - Clients
       - GraphQL
       - gRPC
+      - REST
     properties:
       - type: Documentation
         url: https://yaak.app/docs
