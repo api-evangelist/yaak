@@ -36,14 +36,14 @@ apis:
     properties:
       - type: Documentation
         url: https://yaak.app/docs
-      - type: Getting Started
+      - type: GettingStarted
         url: https://yaak.app/docs
 common:
   - type: Website
     url: https://yaak.app
   - type: Documentation
     url: https://yaak.app/docs
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/mountain-loop/yaak
 maintainers:
   - FN: Kin Lane
