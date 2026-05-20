@@ -39,6 +39,8 @@ apis:
       - type: GettingStarted
         url: https://yaak.app/docs
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/yaak-io
   - type: Website
     url: https://yaak.app
   - type: Documentation
