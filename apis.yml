@@ -49,7 +49,7 @@ common:
   url: https://yaak.app/docs
 - type: GitHubOrganization
   url: https://github.com/mountain-loop/yaak
-- type: LLMsTxt
+- type: LlmsText
   url: https://yaak.app/llms.txt
 maintainers:
 - FN: Kin Lane
