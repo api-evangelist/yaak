@@ -41,6 +41,8 @@ apis:
   - url: graphql/yaak-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/yaak-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/yaak-io
 - type: Website
@@ -51,6 +53,8 @@ common:
   url: https://github.com/mountain-loop/yaak
 - type: LlmsText
   url: https://yaak.app/llms.txt
+- url: https://yaak.app/rss.xml
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
