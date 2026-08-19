@@ -1,0 +1,88 @@
+# Yaak
+
+> Yaak is a desktop API client for REST, GraphQL, gRPC, WebSocket, and SSE requests. It's a modern, open-source alternative to Postman and Insomnia that stores data locally, works offline, and syncs workspaces as Git-friendly plain files.
+
+## Key pages
+
+- [Download](https://yaak.app/download): Download Yaak for macOS, Windows, and Linux
+- [Pricing](https://yaak.app/pricing): Pricing information
+- [Plugins](https://yaak.app/plugins): Community plugin directory
+- [Feedback](https://yaak.app/feedback): Submit feedback or feature requests
+- [Blog](https://yaak.app/blog): Blog posts and announcements
+- [Changelog](https://yaak.app/changelog): Release notes and changelog
+
+## Comparisons
+
+- [Postman Alternatives](https://yaak.app/postman-alternatives): Honest comparison of Postman alternatives with a feature matrix
+- [Yaak vs Postman](https://yaak.app/blog/postman-alternative): How Yaak compares to Postman
+- [Yaak vs Insomnia](https://yaak.app/blog/insomnia-alternative): How Yaak compares to Insomnia
+- [Yaak vs Bruno](https://yaak.app/blog/bruno-alternative): How Yaak compares to Bruno
+- [Git-friendly Postman alternatives](https://yaak.app/blog/git-friendly-postman-alternatives): Comparison of Git-friendly API clients
+
+## Docs: Getting Started
+
+- [Installation](https://yaak.app/docs/getting-started/installation/raw): How to install Yaak on macOS, Windows, and Linux
+- [Security and Privacy](https://yaak.app/docs/getting-started/security-and-privacy/raw): Where your data lives, what leaves your machine, and how secrets are protected
+- [Troubleshooting](https://yaak.app/docs/getting-started/troubleshooting/raw): How to debug and troubleshoot issues
+- [Blank screen or crash on Linux](https://yaak.app/docs/getting-started/linux-graphics-issues/raw): Fix blank screens and startup crashes on Linux caused by Wayland, NVIDIA drivers, or WebKitGTK
+- [Proxy Configuration](https://yaak.app/docs/getting-started/proxy-configuration/raw): Route requests through HTTP proxies with authentication and bypass rules
+- [Working With Large Values](https://yaak.app/docs/getting-started/working-with-large-values/raw): Reference large values without affecting performance
+- [CLI and Agents](https://yaak.app/docs/getting-started/cli-usage/raw): Install and use the Yaak CLI to send requests and manage resources from the command line
+- [MCP Server](https://yaak.app/docs/getting-started/mcp-server/raw): Connect AI assistants to Yaak using the Model Context Protocol
+
+## Docs: Request Types
+
+- [HTTP Requests](https://yaak.app/docs/request-types/http-requests/raw): Send REST API requests with any HTTP method, headers, and body types
+- [GraphQL Requests](https://yaak.app/docs/request-types/graphql-requests/raw): Build and execute GraphQL queries and mutations with schema-aware autocomplete
+- [gRPC Requests](https://yaak.app/docs/request-types/grpc-requests/raw): Send and test gRPC API calls with automatic schema discovery
+- [WebSocket Connections](https://yaak.app/docs/request-types/websockets/raw): Connect to WebSocket servers and exchange messages
+- [Server-Sent Events](https://yaak.app/docs/request-types/server-sent-events/raw): Stream real-time events from SSE endpoints
+
+## Docs: Authentication
+
+- [Request Inheritance](https://yaak.app/docs/authentication/request-inheritance/raw): Apply authentication or headers to an entire workspace or folder
+- [Cookies and Cookie Jars](https://yaak.app/docs/authentication/cookies/raw): Manage cookies across requests with automatic capture and cookie jars
+- [API Key Authentication](https://yaak.app/docs/authentication/api-key/raw): Authenticate requests with API keys in headers or query parameters
+- [AWS Signature v4](https://yaak.app/docs/authentication/aws-signature/raw): Sign requests for AWS services and S3-compatible APIs
+- [Basic Authentication](https://yaak.app/docs/authentication/basic-auth/raw): Authenticate requests with username and password credentials
+- [Bearer Token Authentication](https://yaak.app/docs/authentication/bearer-token/raw): Authenticate requests with access tokens, API keys, and custom prefixes
+- [JWT](https://yaak.app/docs/authentication/jwt/raw): Generate and sign JSON Web Tokens for API authentication
+- [NTLM](https://yaak.app/docs/authentication/ntlm/raw): Authenticate with Windows NTLM for corporate and legacy systems
+- [OAuth 1.0](https://yaak.app/docs/authentication/oauth1/raw): Authenticate requests using OAuth 1.0 signed requests
+- [OAuth 2.0](https://yaak.app/docs/authentication/oauth2/raw): Authenticate with OAuth 2.0 and OpenID Connect (OIDC) providers
+- [Client Certificates](https://yaak.app/docs/authentication/client-certificates/raw): Authenticate with TLS client certificates
+
+## Docs: Templating
+
+- [Environments and Variables](https://yaak.app/docs/templating/environments-and-variables/raw): Reference values across multiple requests
+- [Template Functions](https://yaak.app/docs/templating/template-functions/raw): Use dynamic values from anywhere in Yaak
+- [Request Chaining (Scripting)](https://yaak.app/docs/templating/request-chaining-scripting/raw): How to chain together multiple requests
+- [Pre/Post Request Scripting](https://yaak.app/docs/templating/pre-post-request-scripting/raw): How to do common scripting tasks with template tags instead of scripts
+- [1Password Vault Integration](https://yaak.app/docs/templating/1password-vault-integration/raw): Access 1Password secrets directly from Yaak
+- [Generating Fake Data](https://yaak.app/docs/templating/generating-fake-data/raw): Generate realistic fake data for testing with FakerJS
+
+## Docs: Collaboration
+
+- [Local Directory/Git Sync](https://yaak.app/docs/collaboration/local-directory-git-sync/raw): Sync a workspace to the filesystem, for use with Git or other tools
+- [Import Curl Commands](https://yaak.app/docs/collaboration/import-curl-commands/raw): Import curl commands directly into Yaak
+- [Secrets Encryption](https://yaak.app/docs/collaboration/secrets-encryption/raw): Encrypt secrets for secure backup and collaboration
+- [Import and Export Data](https://yaak.app/docs/collaboration/import-and-export-data/raw): Share workspaces with one-time data import and export
+
+## Docs: Migration Guides
+
+- [Migrate from Postman](https://yaak.app/docs/migration/postman/raw): Migrate your Postman collections and environments to Yaak
+- [Migrate from Bruno](https://yaak.app/docs/migration/bruno/raw): Migrate your Bruno collections to Yaak via Postman export
+- [Migrate from Insomnia](https://yaak.app/docs/migration/insomnia/raw): Migrate your Insomnia workspaces and environments to Yaak
+- [Import OpenAPI & Swagger](https://yaak.app/docs/migration/openapi-swagger/raw): Generate Yaak requests from OpenAPI 3.x and Swagger 2.0 specifications
+
+## Docs: Plugin Development
+
+- [Plugins Quick Start](https://yaak.app/docs/plugin-development/plugins-quick-start/raw): Create your own Yaak plugin, in minutes
+
+## Docs: Teams and Licensing
+
+- [Lifetime Fallback License](https://yaak.app/docs/teams-and-licensing/lifetime-fallback-license/raw): Keep using your current version of Yaak for commercial use, even after cancellation
+- [Team License Management](https://yaak.app/docs/teams-and-licensing/team-license-management/raw): Inviting your team and managing licenses
+- [Single Sign-On](https://yaak.app/docs/teams-and-licensing/single-sign-on/raw): Let organization members sign in through your identity provider
+- [User and Group Provisioning](https://yaak.app/docs/teams-and-licensing/user-group-provisioning/raw): Automatically manage team members from your identity provider
+- [Contact Sales](https://yaak.app/docs/teams-and-licensing/contact-sales/raw): For bulk purchases and other inquiries 
