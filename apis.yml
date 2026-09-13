@@ -33,6 +33,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yaak.png
 tags:
 - API Client
 - Clients
+- Developer Tools
 - GraphQL
 - gRPC
 - REST
