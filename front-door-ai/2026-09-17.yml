@@ -1,0 +1,30 @@
+# Front Door AI Index — yaak — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: yaak
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: yaak.app
+  final_host: yaak.app
+  ownership: own
+  owner: yaak
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 8.32
+  words: 721
+  tiers:
+    agentic: 2
+    core: 3
+    model: 1
+  ambiguous: 7
+  top_terms:
+    agent: 7
+    AI: 2
+    AI agent: 1
+    Claude: 1
+    LLMs: 1
+    MCP: 1
