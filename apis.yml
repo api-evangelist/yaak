@@ -65,6 +65,8 @@ apis:
   - url: graphql/yaak-graphql.md
     type: GraphQL
 common:
+- type: VendorFacets
+  url: vendor-facets/yaak-vendor-facets.yml
 - type: DomainSecurity
   url: security/yaak-domain-security.yml
 - type: LinkedIn
