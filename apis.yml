@@ -65,6 +65,12 @@ apis:
   - url: graphql/yaak-graphql.md
     type: GraphQL
 common:
+- type: Plans
+  url: plans/yaak-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/yaak-rate-limits.yml
+- type: FinOps
+  url: finops/yaak-finops.yml
 - type: VendorFacets
   url: vendor-facets/yaak-vendor-facets.yml
 - type: DomainSecurity
